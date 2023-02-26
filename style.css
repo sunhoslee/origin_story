@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "Gerstner";
+    src: url(fonts/Gerstner\ Programm\ Regular.otf);
+}
+
+body {
+    background-color: #98F158;
+}
+
+#daniel, #lindsay, #isaac{
+    overflow: hidden;
+    cursor: url('images/helmet_no_face.png'), auto;
+    background-color: black;
+  
+}
+
+h3, table {
+    font-family: "Gerstner";
+}
+  
+  /* Add some content at the bottom of the video/page */
+  .col-6, .col-3 {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  #video-background {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: 0;
+  }
+
+  #forward-button {
+    height: 5vh;
+    margin-top:50vh;
+    opacity: 50%;
+    float:right;
+    padding-right: 2vh;
+  }
+
+  #back-button {
+    height: 5vh;
+    margin-top:50vh;
+    opacity: 50%;
+    float:left;
+    padding-left: 2vh;
+  }
+
+  #overlay{
+    position: relative;
+    z-index: 1;
+  }
+
+  #container{
+    height:100vh;
+  }
