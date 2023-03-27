@@ -181,6 +181,15 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
 .cat {
   display: flex;
   font-family: 'Apercu-Condensed', Arial, Helvetica, sans-serif;
@@ -188,20 +197,18 @@ body {
   font-style: normal;
   font-size: 20px;
   border-bottom: 2px solid #000;
-  padding: 34px 0 32px 0;
-
+  /* padding: 34px 0 32px 0; */
+  padding: 0;
 }
 
-
-
-
+/* 
 .cat:hover {
   background-color: #000;
   color: #BAAAFE;
   font-size: 40px;
 }
 
-
+ */
 
 .cat:first-of-type {
   font-family: 'Apercu-Condensed', Arial, Helvetica, sans-serif;
@@ -231,6 +238,34 @@ body {
 }
 
 
+.cat2{
+  border-width: 0px;
+  background-color: transparent;
+  padding: 10px 0 12px 0;
+  font-family: 'Apercu-Condensed', Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 20px;
+  width: 100%;
+}
+
+
+.cat3{
+  border-width: 0px;
+  background-color: transparent;
+  padding: 34px 0 32px 0;
+  font-family: 'Apercu-Condensed', Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 20px;
+  width: 100%;
+}
+
+.cat3:hover {
+  background-color: #000;
+  color: #BAAAFE;
+  font-size: 40px;
+}
 
 
 

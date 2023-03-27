@@ -115,40 +115,94 @@
 
                 }
 
-
-
+                function catClickedDaniel() {
+                    document.getElementById("callPageDaniel").style.display = "block";
+                  }
+                
+                function catClickedLindsay() {
+                    document.getElementById("callPageLindsay").style.display = "block";
+                  }  
+                
+                function catClickedIsaac() {
+                    document.getElementById("callPageIsaac").style.display = "block";
+                  }
 
         </script>
 
 
 
+          <div id="callPageDaniel" style="width: 100%; height: 1000px; display: none;">
+            <iframe style="width:100%; height: 100%;" src="https://sunhoslee.github.io/origin_story/daniel"></iframe>
+          </div>
+
+          <div id="callPageLindsay" style="width: 100%; height: 1000px; display: none;">
+            <iframe style="width:100%; height: 100%;" src="https://sunhoslee.github.io/origin_story/lindsay"></iframe>
+          </div>
+
+          <div id="callPageIsaac" style="width: 100%; height: 1000px; display: none;">
+            <iframe style="width:100%; height: 100%;" src="https://sunhoslee.github.io/origin_story/isaac"></iframe>
+          </div>
+          
+
+
           <div id="catalogue">
-            <div class="cat">
+            
+            <!-- <div class="cat">
               <p>Name</p>
               <p>First Home</p>
               <p>Current Home</p>
+            </div> -->
+          
+
+            <div class="cat">
+              <div style="width: 100%;">
+                <button class="cat2">
+                  <div style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
+                    <p>Name</p>
+                    <p>First Home</p>
+                    <p>Current Home</p>
+                  </div>
+                </button>
+              </div>
+            </div>
+  
+
+            <div class="cat">
+              <div style="width: 100%;">
+                <button class="cat3" onclick="catClicked()">
+                  <div style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
+                    <p>Daniel Yeonjik Kang</p>
+                    <p>Seoul, Korea</p>
+                    <p>California, US</p>
+                  </div>
+                </button>
+              </div>
             </div>
 
 
             <div class="cat">
-                <p>Daniel Yeonjik Kang</p>
-                <p>Seoul, Korea</p>
-                <p>California, US</p>
+              <div style="width: 100%;">
+                <button class="cat3" onclick="catClicked()">
+                  <div style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
+                    <p>Lindsay Jungmi Won</p>
+                    <p>Yongin, Korea</p>
+                    <p>Washington, US</p>
+                  </div>
+                </button>
+              </div>
             </div>
 
             <div class="cat">
-                <p>Lindsay Jungmi Won</p>
-                <p>Yongin, Korea</p>
-                <p>Washington, US</p>
+              <div style="width: 100%;">
+                <button class="cat3" onclick="catClicked()">
+                  <div style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
+                    <p>Isaac Jungki Min</p>
+                    <p>Seoul, Korea</p>
+                    <p>California, US</p>
+                  </div>
+                </button>
+              </div>
             </div>
-
-            <div class="cat">
-                <p>Isaac Jungki Min</p>
-                <p>Seoul, Korea</p>
-                <p>California, US</p>
-            </div>
-            
-
            
 
   </div>
