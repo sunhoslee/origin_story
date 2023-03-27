@@ -23,6 +23,8 @@
   </head>
 
 
+
+  
   <body>
     
 
@@ -43,7 +45,7 @@
 
 
     <div class="content">
-        <div class="content-inner content-everything">
+      <div class="content-inner content-everything">
           <div class="note">
             <!-- <h4>Stories of people who belong here but also there.</h4>
             <h4>Stories of people who belong neither here nor there.</h4>
@@ -118,6 +120,8 @@
                 function catClickedDaniel() {
                     document.getElementById("callPageDaniel").style.display = "block";
                   }
+
+                
                 
                 function catClickedLindsay() {
                     document.getElementById("callPageLindsay").style.display = "block";
@@ -127,7 +131,11 @@
                     document.getElementById("callPageIsaac").style.display = "block";
                   }
 
-        </script>
+                function reset() {
+                    document.getElementById("callPageDaniel").remove();
+                  }
+
+         </script>
 
 
 
@@ -146,13 +154,7 @@
 
 
           <div id="catalogue">
-            
-            <!-- <div class="cat">
-              <p>Name</p>
-              <p>First Home</p>
-              <p>Current Home</p>
-            </div> -->
-          
+
 
             <div class="cat">
               <div style="width: 100%;">
@@ -169,7 +171,7 @@
 
             <div class="cat">
               <div style="width: 100%;">
-                <button class="cat3" onclick="catClicked()">
+                <button class="cat3" onclick="catClickedDaniel()">
                   <div style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
                     <p>Daniel Yeonjik Kang</p>
                     <p>Seoul, Korea</p>
@@ -182,7 +184,7 @@
 
             <div class="cat">
               <div style="width: 100%;">
-                <button class="cat3" onclick="catClicked()">
+                <button class="cat3" onclick="catClickedLindsay()">
                   <div style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
                     <p>Lindsay Jungmi Won</p>
                     <p>Yongin, Korea</p>
@@ -194,7 +196,7 @@
 
             <div class="cat">
               <div style="width: 100%;">
-                <button class="cat3" onclick="catClicked()">
+                <button class="cat3" onclick="catClickedIsaac()">
                   <div style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
                     <p>Isaac Jungki Min</p>
                     <p>Seoul, Korea</p>
@@ -205,16 +207,9 @@
             </div>
            
 
-  </div>
-          
-
-
-
-
-
           </div>
         </div>
-    </div>
+      </div>
 
 
 
@@ -272,16 +267,19 @@
       <div class="mobi hamburger">
         <h4 class="icon">&#x2630;</h4>
       </div>
+
       <div class="f-section lockup desk">
         <h4>&copy;Sun Ho Lee</h4>
       </div>
+
       <div class="f-section title">
             <h4>Origin Story</h4>
             <div class="mobi span" id="about"><h4>About</h4></div>
-            <div class="mobi span" id="guestbook"><h4>Guestbook</h4>
-        </div>
+            <div class="mobi span" id="guestbook"><h4>Guestbook</h4></div>
 
       </div>
+
+
       <div class="f-section c desk">
           <h4>&copy;2023</h4>
       </div>

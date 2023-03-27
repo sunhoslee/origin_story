@@ -243,10 +243,12 @@ body {
   background-color: transparent;
   padding: 10px 0 12px 0;
   font-family: 'Apercu-Condensed', Arial, Helvetica, sans-serif;
-  font-weight: 200;
+  font-weight: 400;
   font-style: normal;
-  font-size: 20px;
+  font-size: 16px;
   width: 100%;
+  text-transform: uppercase;
+
 }
 
 
@@ -266,6 +268,10 @@ body {
   color: #BAAAFE;
   font-size: 40px;
 }
+
+
+
+
 
 
 
@@ -632,6 +638,9 @@ h2 {
     background: #fff;
     z-index: 10;
   }
+
+
+
 /* 
   .flip-nav {
     position: relative;
